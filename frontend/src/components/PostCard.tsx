@@ -2,7 +2,7 @@ import React from "react";
 
 const PostCard: React.FC = () => {
   return (
-    <div className="p-4 m-4 w-80 h-auto bg-[#282B33] shadow rounded-md">
+    <div className="p-4 w-full h-auto bg-[#282B33] shadow rounded-md">
       <div className="flex items-center mb-3">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -20,6 +20,12 @@ const PostCard: React.FC = () => {
             not much big like this titel is getting bigger and bigger
           </h2>
           <div className="flex space-x-2 mt-1">
+            <span className="px-2 py-1 bg-blue-100 rounded-full text-xs">
+              Tag1
+            </span>
+            <span className="px-2 py-1 bg-blue-100 rounded-full text-xs">
+              Tag1
+            </span>
             <span className="px-2 py-1 bg-blue-100 rounded-full text-xs">
               Tag1
             </span>
