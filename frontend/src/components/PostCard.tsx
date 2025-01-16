@@ -2,7 +2,7 @@ import React from "react";
 
 const PostCard: React.FC = () => {
   return (
-    <div className="p-4 w-full h-auto bg-[#282B33] shadow rounded-md">
+    <div className="p-4 w-full h-fit bg-[#282B33] shadow rounded-md">
       <div className="flex items-center mb-3">
       <svg
         xmlns="http://www.w3.org/2000/svg"
