@@ -2,14 +2,12 @@ import React from "react";
 import PostCard from "../components/PostCard.tsx";
 import Filter from "../components/Filter.tsx";
 
-const Home: React.FC = () => {
+const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row ">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
-        {[1,2,3,4,5,6,7,8,9,10].map((post) => (
-          <PostCard
-            key={post}
-          />
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+        {[1, 2, 3, 4].map((id) => (
+          <PostCard key={id} />
         ))}
       </div>
       <div>
@@ -19,4 +17,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default HomePage;
