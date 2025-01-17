@@ -1,18 +1,26 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
-import Account from "./pages/Account";
+import HomePage from "./pages/HomePage";
+import AccountPage from "./pages/AccountPage";
+import NewPostPage from "./pages/NewPostPage";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
+
 function App() {
+  const location = useLocation();
+  const hideNavbarPaths = ["/login", "/signup"];
+  const shouldHideNavbar = hideNavbarPaths.includes(location.pathname);
+
   return (
     <div>
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/account" element={<Account />} />
-          <Route path="/new-post" element={<h1>New Post</h1>} />
-        </Routes>
-      </BrowserRouter>
+      {!shouldHideNavbar && <NavBar />}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/account" element={<AccountPage />} />
+        <Route path="/new-post" element={<NewPostPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+      </Routes>
     </div>
   );
 }
