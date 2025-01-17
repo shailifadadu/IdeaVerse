@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AccountMenu from "./AccountMenu";
-import {User} from 'lucide-react'
 
 const NavBar: React.FC = () => {
   return (
@@ -29,15 +28,12 @@ const NavBar: React.FC = () => {
         </div>
         <div className="flex items-center space-x-4">
           <Link to="/new-post">
-          <button className="bg-white text-black px-4 py-2 rounded-[15px] opacity-70 transition duration-300 ease-in-out hover:opacity-100">
-            New Post
-          </button>
+            <button className="bg-white text-black px-4 py-2 rounded-[15px] opacity-70 transition duration-300 ease-in-out hover:opacity-100">
+              New Post
+            </button>
           </Link>
           <Link to="/account">
-          <div className="relative group">
-            <User size={40} className="text-white" />
-              <AccountMenu />
-          </div>
+            <AccountMenu />
           </Link>
         </div>
       </nav>
