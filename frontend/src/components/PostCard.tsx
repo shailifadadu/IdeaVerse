@@ -1,8 +1,11 @@
 import React from "react";
 import { ArrowBigUp, Bookmark, MessageCircle, Share2 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const PostCard: React.FC = () => {
   return (
+    <>
+    <Link to="post">
     <div className="p-4 w-full h-fit bg-[#282B33] shadow rounded-md">
       <div className="flex items-center mb-3">
       <svg
@@ -48,6 +51,8 @@ const PostCard: React.FC = () => {
           <Share2 size={35} className="text-white" />
       </div>
     </div>
+    </Link>
+    </>
   );
 };
 

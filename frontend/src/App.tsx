@@ -5,6 +5,7 @@ import AccountPage from "./pages/AccountPage";
 import NewPostPage from "./pages/NewPostPage";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
+import PostPage from "./pages/Post";
 
 function App() {
   const location = useLocation();
@@ -20,6 +21,7 @@ function App() {
         <Route path="/new-post" element={<NewPostPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route path="/post" element={<PostPage />} />
       </Routes>
     </div>
   );
