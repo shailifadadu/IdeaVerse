@@ -6,7 +6,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row ">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
-        {[1, 2, 3, 4].map((id) => (
+      {[1,2,3,4,5,6,7,8,9,10].map((id) => (
           <PostCard key={id} />
         ))}
       </div>
