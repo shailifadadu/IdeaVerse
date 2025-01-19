@@ -8,22 +8,25 @@ import {
 } from "lucide-react";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin, FaGithub, FaRegUserCircle } from "react-icons/fa";
-import { post } from "./DummyData/post";
-
+import { posts } from "./DummyData/post";
 
 export default function PostPage() {
   return (
     <div className="flex flex-col gap-4 md:flex-row md:gap-0 p-6 ">
       <div className="mr-4 p-4 w-full h-fit border border-neutral-700 shadow text-white rounded-md basis-4/5 flex-grow-1">
         <article className="space-y-8">
-          <h1 className="text-4xl font-bold leading-tight">{post.title}</h1>
+          <h1 className="text-4xl font-bold leading-tight">{posts.title}</h1>
 
           <div className="prose prose-invert max-w-none">
-            <p>{post.content}</p>
+            <p>{posts.content}</p>
           </div>
 
-          <div className="flex flex-warp items-center w-fit py-2 px-5 gap-5 border border-neutral-700 rounded-full">
-            <ArrowBigUp size={45} className="text-white flex-none" />
+          <div className="flex flex-warp items-center w-fit pr-5 gap-5 border border-neutral-700 rounded-full">
+            <div className="flex space-x-2 items-center bg-[#3b424d] px-3 py-2 rounded-full">
+              <ArrowBigUp size={40} className="text-white" />
+              <div className="w-px h-8 bg-slate-400 mx-2"></div>
+              <p className="text-white font-bold text-2xl">12</p>
+            </div>
             <Bookmark size={35} className="text-white" />
             <MessageCircle size={35} className="text-white" />
             <Share2 size={35} className="text-white" />
@@ -43,7 +46,7 @@ export default function PostPage() {
           </div>
 
           <div className="space-y-2">
-            {post.comments.map((comment) => (
+            {posts.comments.map((comment) => (
               <div
                 key={comment.id}
                 className="rounded-lg border border-neutral-700 p-4 space-y-4"
@@ -69,8 +72,8 @@ export default function PostPage() {
           <div className="flex items-center space-x-4">
             <User className="h-12 w-12" />
             <div>
-              <p className="text-xl font-semibold">{post.author.name}</p>
-              <p className="text-sm text-muted-foreground">{post.date}</p>
+              <p className="text-xl font-semibold">{posts.author.name}</p>
+              <p className="text-sm text-muted-foreground">{posts.date}</p>
             </div>
           </div>
         </div>

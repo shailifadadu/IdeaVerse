@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AccountMenu from "./AccountMenu";
+import { Search } from "lucide-react";
 
 const NavBar: React.FC = () => {
   return (
@@ -9,22 +10,13 @@ const NavBar: React.FC = () => {
         <Link to="/">
           <div className="text-white text-xl font-bold">InnoHub</div>
         </Link>
-        <div className="flex-none self-center w-5/12 rounded-full flex items-center bg-[#3b424d]">
+        <div className="flex-none self-center w-5/12 rounded-full flex items-center bg-[#3b424d] px-3">
           <input
             type="text"
-            placeholder=" Search..."
-            className="w-full p-2 rounded-full bg-[#3b424d] text-white"
+            placeholder="Search..."
+            className="w-full p-2 focus:outline-none rounded-full bg-[#3b424d] text-white"
           />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 -960 960 960"
-            width="24px"
-            fill="#77859d"
-            className="ml-2 mr-3"
-          >
-            <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
-          </svg>
+          <Search size={35} className="text-white p-2" />
         </div>
         <div className="flex items-center space-x-4">
           <Link to="/new-post">
