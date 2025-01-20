@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "Comments")
 public class Comment {
 
     @Id
@@ -63,5 +64,10 @@ public class Comment {
 
     public void setPostedDate(LocalDateTime postedDate) {
         this.postedDate = postedDate;
+    }
+
+    public Comment orElse(Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'orElse'");
     }
 }
