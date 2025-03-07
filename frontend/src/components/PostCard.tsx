@@ -44,15 +44,15 @@ const PostCard: React.FC = () => {
         essentially nonsense language thRelax, since unless you are working as a
         typographer or graphic designer you will probably not have to use lorem
       </div>
-      <div className="flex flex-wrap justify-between items-center">
+      <div className="flex flex-wrap justify-between items-center ">
         <div className="flex space-x-2 items-center bg-[#3b424d] px-3 py-2 rounded-full">
-          <ArrowBigUp size={40} className="text-white"/>
+          <ArrowBigUp size={30} className="text-white"/>
           <div className="w-px h-8 bg-slate-400 mx-2"></div>
-          <p className="text-white font-bold text-2xl">12</p>
+          <p className="text-white font-bold text-xl">12</p>
         </div>
-          <Bookmark size={35} className="text-white" />
-          <MessageCircle size={35} className="text-white" />
-          <Share2 size={35} className="text-white" />
+          <Bookmark size={25} className="text-white" />
+          <MessageCircle size={25} className="text-white" />
+          <Share2 size={25} className="text-white" />
       </div>
     </div>
     </Link>
