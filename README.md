@@ -1,4 +1,4 @@
-<h1><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="30" height="30" /> IdeaVerse - Where Ideas Meet Opportunities!</h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="30" height="30" /> IdeaVerse - Where Ideas Meet Opportunities!</h1>
 
 <div align="center">
     <code>💡 Post Your Ideas. 🤝 Connect with Innovators. 🚀 Build Together.</code>
