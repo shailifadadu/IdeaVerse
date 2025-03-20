@@ -8,7 +8,7 @@ const NavBar: React.FC = () => {
     <div>
       <nav className=" bg-nav-bar-color p-4 flex justify-between items-center">
         <Link to="/">
-          <div className="text-white text-xl font-bold">InnoHub</div>
+          <div className="text-white text-xl font-bold">IdeaVerse</div>
         </Link>
         <div className="flex-none self-center w-5/12 rounded-full flex items-center bg-[#3b424d] px-3">
           <input
