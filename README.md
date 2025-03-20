@@ -5,7 +5,7 @@
 </div>
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" alt="High Voltage" width="30" height="30" /> What is IdeaVerse?</h2>
-<pre><i>IdeaVerse is a platform for innovators, dreamers, and problem-solvers to share their ideas and connect with like-minded people. Whether you have a game-changing startup concept or a creative solution to a global challenge, IdeaVerse helps you turn your vision into reality!</i> 🚀</pre>
+<i>IdeaVerse is a platform for innovators, dreamers, and problem-solvers to share their ideas and connect with like-minded people. Whether you have a game-changing startup concept or a creative solution to a global challenge, IdeaVerse helps you turn your vision into reality!</i> 🚀
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eyes.png" alt="Eyes" width="30" height="30" /> How It Works?</h2> 
 ✅ <b>Post an Idea</b> – Share your thoughts with the world.<br>  
