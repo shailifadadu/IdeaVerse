@@ -21,14 +21,14 @@ const AccountMenu: React.FC = () => {
       onMouseLeave={() => setIsOpen(false)}
           className="absolute flex flex-col p-4 w-72 gap-2 right-0 mt-2 bg-nav-bar-color rounded-lg border  border-neutral-700 shadow-lg group-hover:opacity-100 transition-opacity duration-300">
           <Link
-            to="/settings"
+            to="/account"
             className="flex flex-row flex-wrap gap-3 px-4 py-2 text-white hover:bg-[#3b424d] border border-neutral-700 rounded-lg"
           >
             <UserRoundCog size={35} />
             <span className="text-2xl mr-4 pr-10">Account</span>
           </Link>
           <Link
-            to="/settings"
+            to="/saved"
             className="flex flex-row flex-wrap gap-3 px-4 py-2 text-white hover:bg-[#3b424d] border border-neutral-700 rounded-lg"
           >
             <BookmarkCheck size={35} />
