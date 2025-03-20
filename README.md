@@ -10,7 +10,7 @@
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Eyes.png" alt="Eyes" width="30" height="30" /> How It Works?</h2> 
 ✅ <b>Post an Idea</b> – Share your thoughts with the world.<br>  
 ✅ <b>Discover & Engage</b> – Browse through exciting ideas.<br>  
-✅ <b>Connect with Creators</b> – Find and reach out to idea owners via social links.<br>  
+✅ <b>Connect with Creators</b> – Find and reach out to idea owners.<br>  
 ✅ <b>Build & Collaborate</b> – Team up and bring ideas to life.
 
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="High Voltage" width="30" height="30"> Tech Stack</h2>
